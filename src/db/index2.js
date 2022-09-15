@@ -1,4 +1,6 @@
-const dato = [];
+const dato = [{nombre:"MackBook",descripcion:"Pro 13 pulgadas",precio:8000},
+{nombre:"MackAir",descripcion:"14 pulgadas",precio:5000},
+{nombre:"MagicMouse",descripcion:"Via Bluethoot",precio:1200}];
 
 //Listar productos
 export const findAll = () => {

@@ -3,10 +3,9 @@
 import * as DB from "../../db/index2"
 
 export const findAll = (req,res) => {
-    return res.json({
-        ok:true,
-        data:DB.findAll()
-    })
+    return res.json(
+        DB.findAll()
+    )
 }
 
 export const findOne = (req,res) => {

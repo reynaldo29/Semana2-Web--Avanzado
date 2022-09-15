@@ -1,4 +1,6 @@
-const data = [];
+const data = [{nombre:"Aaron",apellido:"Contreras",celular:"979377644"},
+{nombre:"Jose",apellido:"Carpio",celular:"979983472"},
+{nombre:"Maria",apellido:"Julian",celular:"991537383"}];
 
 //Lista todo
 export const findAll = () => {
